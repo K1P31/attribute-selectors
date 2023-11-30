@@ -1,0 +1,11 @@
+body {
+    background-color: burlywood;
+}
+
+a[title="google website"]   {
+    color:red;
+}
+
+a[href="https://nellysugu.com"]{
+    color: blueviolet;
+}
