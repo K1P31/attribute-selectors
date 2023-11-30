@@ -9,3 +9,47 @@ a[title="google website"]   {
 a[href="https://nellysugu.com"]{
     color: blueviolet;
 }
+
+* [lang^="en"] {
+    color: green;
+  }
+  
+  *.warning {
+    color: red;
+  }
+  
+  *#maincontent {
+    border: 1px solid blue;
+  }
+  
+  .floating {
+    float: left;
+  }
+  
+
+  .floating + * {
+    clear: left;
+  }
+
+  .example {
+    font-family: system-ui;
+    font-size: 1.2rem;
+  }
+  
+  .example > a {
+    color: tomato;
+  }
+  
+  .example > a:hover,
+  .example > a:focus {
+    color: ivory;
+    background-color: tomato;
+  }
+
+  form :active {
+    color: red;
+  }
+  
+  form button {
+    background: white;
+  }
